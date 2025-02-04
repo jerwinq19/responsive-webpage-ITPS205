@@ -1,0 +1,9 @@
+@font-face {
+    font-family: myFont;
+    src: url(assets/fonts/GeistMono.ttf);
+}
+
+* {
+    font-family: myFont;
+    font-weight: 400;
+}
