@@ -20,9 +20,15 @@ header {
     background-color: var(--black);
     color: var(--green);
     padding: 5rem;
+    place-items: center ;
+    background-image: url(./assets/imgaes/header-img.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-text {
+    padding: 2rem;
     text-align: center;
 }
-
 
 .my-nav {
     background-color: var(--green);
@@ -200,5 +206,9 @@ main {
     .items {
         display: flex;
         justify-content: space-around;
+    }
+
+    .my-nav {
+        padding: 0.5rem;
     }
 }
