@@ -63,6 +63,15 @@ aside img {
     border-radius: 20px;
 }
 
+.about-text {
+    text-align: justify;
+}
+
+.about-text h1 {
+    margin-bottom: 1rem;
+}
+
+
 .main-cont {
     display: flex;
     width: auto;
@@ -79,9 +88,11 @@ main {
     padding: 2rem;
     background-color: var(--white);
 }
+
 .main-title { 
     text-align: center;
     color: var(--black);
+    margin-bottom: 2rem;
 }
 
 .card-container {
